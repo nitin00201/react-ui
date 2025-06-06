@@ -14,7 +14,7 @@ interface PreviewProps {
 }
 
 const prePath = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `http://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  ? `${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
   : "http://localhost:3000/";
 
 export function Preview({

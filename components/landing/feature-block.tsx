@@ -81,7 +81,7 @@ export default function Features() {
                     onMouseLeave={handleMouseLeave}
                 >
                     <Image
-                        src="/motion.png"
+                        src="https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png"
                         alt="Motion"
                         className="rounded-full"
                         width={32}

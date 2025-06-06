@@ -28,6 +28,8 @@ import { BrowseComponentsButton } from "../ui/browse-button";
 import Features from "./feature-block";
 
 import Card02 from "../codesnippetui/card/card-02";
+import Card03 from "../codesnippetui/card/card-03";
+import Card04 from "../codesnippetui/card/card-04";
 
 interface Action {
   id: string;
@@ -128,7 +130,7 @@ export function HeroSection() {
                             actions={allActions}
                             defaultOpen={true}
                         /> */}
-            <Card02 />
+            <Card04 />
           </div>
         </motion.div>
 

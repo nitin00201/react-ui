@@ -17,7 +17,7 @@ interface Card08Props {
 export default function Card08({
     title = "New UI Design Fundamentals",
     subtitle = "Explore the fundamentals of contemporary UI design",
-    image = "/card-08.png",
+    image = "/card-081.jpg",
     badge = { text: "New", variant: "indigo" },
     href = "#",
 }: Card08Props) {

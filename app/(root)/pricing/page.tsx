@@ -129,7 +129,7 @@ const pricingTiers: PricingTier[] = [
     },
     {
         name: "Custom Components",
-        price: "799",
+        price: "499",
         period: "component",
         description: "Custom components built for your brand",
         icon: <Paintbrush className="h-5 w-5 text-purple-500" />,
@@ -182,7 +182,7 @@ const pricingTiers: PricingTier[] = [
     },
     {
         name: "Custom Pages",
-        price: "2,999",
+        price: "1,499",
         period: "page",
         description: "Great for startups, small businesses, and more",
         icon: <Rocket className="h-5 w-5 text-orange-500" />,
@@ -257,7 +257,7 @@ export default function PricingPage() {
     }
 
     function copyEmailToClipboard() {
-        navigator.clipboard.writeText("hi@kokonutui.com");
+        navigator.clipboard.writeText("hi@codeshad.com");
         setHasCopied(true);
         setTimeout(() => setHasCopied(false), 1000);
     }
@@ -463,10 +463,10 @@ export default function PricingPage() {
                     <p className="text-sm text-gray-900 dark:text-gray-100">
                         Have questions? Contact us at{" "}
                         <a
-                            href="mailto:hi@kokonutui.com"
+                            href="mailto:hi@codeshad.com"
                             className="text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300 underline underline-offset-4 transition-colors"
                         >
-                            hi@kokonutui.com
+                            hi@codeshad.com
                         </a>
                     </p>
                 </motion.div>
@@ -629,7 +629,7 @@ export default function PricingPage() {
                                             onClick={copyEmailToClipboard}
                                         >
                                             <span className="text-sm font-medium">
-                                                hi@kokonutui.com
+                                                hi@codeshad.com
                                             </span>
                                             {hasCopied ? (
                                                 <svg

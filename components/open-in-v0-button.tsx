@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const prePath = process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `http://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : `http://${process.env.NEXT_PUBLIC_SITE_URL}`;
+    ? `https://react-ui-topaz.vercel.app`
+    : `https://react-ui-topaz.vercel.app`;
 
 export function OpenInV0Button({
     name,

@@ -102,6 +102,13 @@ export const navigationSections: NavSection[] = [
                 count: 6,
                 isNew: true,
             },
+            {
+                id: 11,
+                title: "new-comp1",
+                href: "/docs/components/new-comp1",
+                description: "Interactive button components with animations",
+                count: 1,
+            },
         ],
     },
     {
