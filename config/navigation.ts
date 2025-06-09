@@ -109,6 +109,20 @@ export const navigationSections: NavSection[] = [
                 description: "Interactive button components with animations",
                 count: 1,
             },
+             {
+                id: 12,
+                title: "folder-animate",
+                href: "/docs/components/folder-animate",
+                description: "Interactive folder-animate components with animations",
+                count: 1,
+            },
+               {
+                id: 13,
+                title: "stack",
+                href: "/docs/components/stack",
+                description: "Interactive stack components with animation and images",
+                count: 1,
+            },
         ],
     },
     {

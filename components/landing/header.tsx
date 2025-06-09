@@ -83,7 +83,7 @@ export function Header() {
                                             Pricing
                                         </ViewTransitionsLink> */}
                     <Link
-                      href="http://localhost:3000/templates"
+                      href="https://react-ui-topaz.vercel.app/templates"
                       target="_blank"
                       className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors flex items-center gap-2"
                     >

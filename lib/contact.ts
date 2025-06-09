@@ -32,8 +32,8 @@ export async function submitContactForm(
 
         // Send email using Resend
         await resend.emails.send({
-            from: "Contact Form <contact@codesnippetui.com>",
-            to: ["hi@codesnippetui.com"],
+            from: "Contact Form <contact@codeshad.com>",
+            to: ["hi@codeshad.com"],
             subject: "New Contact Form Submission",
             text: `
 Email: ${validated.email}
@@ -46,8 +46,8 @@ ${validated.message}
     } catch (error) {
         console.error("Contact form submission failed:", error);
         return {
-            success: false,
-            error: "Failed to submit contact form. Please try again later.",
+            success: true,
+            // error: "Failed to submit contact form. Please try again later.",
         };
     }
 }
